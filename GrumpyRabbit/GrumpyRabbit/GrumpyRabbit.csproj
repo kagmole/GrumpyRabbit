@@ -62,18 +62,20 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="SquareHitbox.cs" />
-    <Compile Include="GameCore.cs" />
-    <Compile Include="GameEngine.cs" />
-    <Compile Include="RabbitMoveDrag.cs" />
-    <Compile Include="RabbitMoveGrab.cs" />
-    <Compile Include="RabbitMoveFall.cs" />
-    <Compile Include="RabbitMoveIdle.cs" />
-    <Compile Include="RabbitMoveRun.cs" />
-    <Compile Include="ObjectPool.cs" />
-    <Compile Include="RabbitState.cs" />
-    <Compile Include="RabbitStateManager.cs" />
-    <Compile Include="WorldGenerator.cs" />
+    <Compile Include="Entities\Characters\Character.cs" />
+    <Compile Include="Entities\Characters\Animation.cs" />
+    <Compile Include="Entities\Characters\DragAnimation.cs" />
+    <Compile Include="Entities\Characters\FallAnimation.cs" />
+    <Compile Include="Entities\Characters\GrabAnimation.cs" />
+    <Compile Include="Entities\Characters\IdleAnimation.cs" />
+    <Compile Include="Entities\Characters\RabbitCharacter.cs" />
+    <Compile Include="Entities\Characters\RunAnimation.cs" />
+    <Compile Include="Entities\Entity.cs" />
+    <Compile Include="Entities\Hitbox.cs" />
+    <Compile Include="Core\GameCore.cs" />
+    <Compile Include="Core\GameEngine.cs" />
+    <Compile Include="Utilities\ObjectPool.cs" />
+    <Compile Include="Core\WorldGenerator.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

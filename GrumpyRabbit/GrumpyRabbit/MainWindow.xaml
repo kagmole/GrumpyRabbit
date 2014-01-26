@@ -7,7 +7,7 @@
         WindowStyle="None"
         Background="Transparent"
         Topmost="True"
-        ShowInTaskbar="True"
+        ShowInTaskbar="False"
         WindowState="Maximized">
-    <Canvas Name="mainCanvas" />
+    <Canvas Name="worldCanvas" />
 </Window>
